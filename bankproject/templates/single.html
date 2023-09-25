@@ -1,0 +1,652 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <title>FinBank</title>
+    <style>
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px ;
+}
+
+.copyright-text {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.row {
+  justify-content: center;
+}
+
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css'%}">
+
+    <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css'%}">
+
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a class="h2 mb-0">FinBank<span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">Branches</a>
+                  <ul class="dropdown">
+                    <li><a href="https://en.wikipedia.org/wiki/Kannur" class="nav-link">Kannur</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Kozhikode" class="nav-link">Calicut</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Kochi" class="nav-link">Cochin</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Kottayam" class="nav-link">Kottayam</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Thiruvananthapuram" class="nav-link">Trivandrum</a></li>
+                    <li class="has-children">
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a href="login" class="nav-link">username</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+
+
+    <div class="site-blocks-cover overlay" style="{% static '
+background-image: url(images/hero_2.jpg);' %}" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Banking Solutions</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Join the FinBank family today and experience the difference of banking with a trusted partner. We're here to make banking easier, more convenient, and more rewarding for you. </p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="details" target="_blank" class="btn  btn-primary mr-2 mb-2">Apply now</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Financing Solutions</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Explore our financing solutions today and take the first step toward securing a brighter financial future. We're here to help you turn your dreams into reality.</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="details" target="_blank" class="btn  btn-primary mr-2 mb-2">Apply now</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Savings Accounts</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Open a Savings Account with us today and start your journey toward financial security and prosperity. Your financial well-being is our priority, and we're here to support you every step of the way.</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="details" target="_blank" class="btn  btn-primary mr-2 mb-2">Apply now</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="#next" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>
+
+
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">FinBank was founded in 2002 with a vision to create a financial institution that truly understands and caters to the unique needs of our customers. Over the years, we have grown and evolved, adapting to changing financial landscapes while remaining rooted in our commitment to service excellence.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src="{% static 'images/img_2.jpg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="text-black mb-4">We Solve Your Financial Problem</h3>
+
+            <p>At FinBank, we understand that financial challenges can arise unexpectedly. That's why we're here to provide solutions and support when you need it most. Our dedicated team of experts is committed to helping you navigate your financial journey with confidence.</p>
+            <p>Discover the FinBank difference today and experience banking that goes beyond the ordinary.Together, let's transform your financial challenges into opportunities and empower your future.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section" id="next">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
+            <img src="{% static 'images/flaticon-svg/svg/001-wallet.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Money Savings</h3>
+            <p>Saving regularly is made easy with our automated savings plans. Set up recurring transfers from your checking account to your savings account and watch your savings grow effortlessly.</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+            <img src="{% static 'images/flaticon-svg/svg/004-cart.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Online Shoppings</h3>
+            <p> Shop on the go with our mobile app, allowing you to make purchases and manage your accounts from anywhere at any time. Convenience is now at your fingertips.</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+            <img src="{% static 'images/flaticon-svg/svg/006-credit-card.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Credit / Debit Cards</h3>
+            <p>We offer a range of cards designed to simplify your transactions and provide you with valuable benefits. Discover the power of our credit and debit cards and unlock a world of financial possibilities.</p>
+          </div>
+
+        </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <section class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Our team is committed to delivering exceptional service and expertise to help you achieve your financial goals with confidence. Get to know the faces behind the Finbank that's here to support you every step of the way.</p>
+          </div>
+        </div>
+        <div class="row">
+
+
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="{% static 'images/person_1.jpg' %}" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Kaiara Spencer</h3>
+                <span class="position">General Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="{% static 'images/person_2.jpg' %}" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Dave Simpson</h3>
+                <span class="position">Bank Teller</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="{% static 'images/person_3.jpg' %}" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Ben Thompson</h3>
+                <span class="position">Chairman</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">How It Works</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">We are here to make banking simple, secure, and convenient. Join us today and experience banking the way it should be.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-lg-center" >
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+
+            <div class="owl-carousel slide-one-item-alt">
+              <img src="{% static 'images/img_1.jpg' %}" alt="Image" class="img-fluid">
+              <img src="{% static 'images/img_2.jpg' %}" alt="Image" class="img-fluid">
+              <img src="{% static 'images/img_3.jpg' %}" alt="Image" class="img-fluid">
+            </div>
+            <div class="custom-direction">
+              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+            </div>
+
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="owl-carousel slide-one-item-alt-text">
+              <div>
+                <h2 class="section-title mb-3">01. Online Applications</h2>
+                <p>You can open a new account with us from the comfort of your home. Simply visit our website, fill out the online application form, and follow the easy steps to become a valued customer.</p>
+              </div>
+              <div>
+                <h2 class="section-title mb-3">02. Get an approval</h2>
+                <p>Getting approved at FinBank is quick and hassle-free. Apply for your desired financial product, and we'll review your application promptly, providing you with a swift decision.</p>
+              </div>
+              <div>
+                <h2 class="section-title mb-3">03. Card delivery</h2>
+                <p>We offer convenient card delivery options, ensuring your card reaches you securely and on time. Sit back, relax, and await the arrival of your card at the address you provided during the application process.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="site-section border-bottom bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Our Services</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/001-wallet.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Business Consulting</h3>
+                <p>Whether you're looking to optimize operations, expand your market reach, or navigate complex regulatory landscapes, we're here to guide you every step of the way. Partner with us for strategic insights and turn your business goals into reality.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/006-credit-card.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Credit Card</h3>
+                <p>Experience the ease and convenience of our credit cards. With a range of options to choose from, our credit cards offer convenience, security, and rewards tailored to your needs. Apply now for instant purchasing power, secure transactions, and exclusive rewards.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/002-rich.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Income Monitoring</h3>
+                <p>Smart financial decisions start with a clear view of your income. Take control of your finances with our income monitoring tools. Easily track your earnings, budget effectively, manage your expenses and plan for a secure financial future.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/003-notes.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Insurance Consulting</h3>
+                <p>Navigate the Insurance Landscape with Confidence. Our insurance consulting services provide expert guidance to help you make informed decisions. From finding the right coverage to optimizing your policies, we're here to protect what matters most to you.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/004-cart.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Financial Investment</h3>
+                <p>Grow Your Wealth with Strategic Financial Investments and Discover a world of investment opportunities. Our seasoned experts will guide you to make informed financial decisions that align with your goals, risk tolerance, and aspirations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="{% static 'images/flaticon-svg/svg/005-megaphone.svg' %}" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Financial Management</h3>
+                <p> Our comprehensive financial management services provide you with the tools and expertise you need to achieve your financial goals and secure a brighter future. Let's work together to build a strong financial foundation and pave the way for your financial success.</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Happy Customers</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;I've been with FinBank for years, and their financial advice has been invaluable. They truly care about my financial well-being and have helped me make smart investment decisions.&rdquo;</p>
+              </blockquote>
+
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <p>John Smith</p>
+              </figure>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;I used FinBank's services to consolidate my debt, and it was a smooth process. They provided a clear plan to get my finances back on track, and I'm grateful for their support.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <p>Christine Aguilar</p>
+              </figure>
+
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;The team at FinBank helped me plan for retirement, and I couldn't be happier. Their expertise and personalized approach gave me peace of mind about my financial future&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <p>Robert Spears</p>
+              </figure>
+
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;I reached out to FinBank for insurance advice, and they found me a policy that perfectly suits my needs. The service was prompt and professional.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <p>Bruce Rogers</p>
+              </figure>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="site-section bg-light" id="pricing-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="section-title mb-3"></h2>
+          </div>
+        </div>
+
+        <div class="row site-section" id="faq-section">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title">Frequently Ask Questions</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">How do I open an account with your bank?</h3>
+            <p>Opening an account with us is easy! You can start the process online by visiting our website and filling out the online account application form. Alternatively, you can visit one of our local branches, and our friendly staff will assist you in person.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">Can I schedule automatic bill payments through your bank?</h3>
+              <p>Absolutely! Our online banking platform allows you to set up automatic bill payments, making it easy to manage your monthly expenses and avoid late fees.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">How can I reach your customer support team for assistance?</h3>
+            <p>You can reach our customer support team through various channels, including our toll-free hotline, email, or by visiting one of our local branches during business hours. We're here to assist you with any questions or concerns you may have.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">How can I transfer money to another account, both within and outside the bank?</h3>
+              <p>You can easily transfer funds between your accounts or to external accounts through our online banking platform. Log in to your online banking account, select the "Transfer Funds" option, and follow the on-screen instructions. For external transfers, you'll need to add the recipient's account details.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What is the process for reporting fraudulent activity or unauthorized transactions on my account?</h3>
+              <p> If you suspect any fraudulent activity or unauthorized transactions on your account, please contact our fraud department immediately at our dedicated hotline. We will assist you in securing your account and initiating an investigation.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What are the bank's hours of operation for in-branch services?</h3>
+              <p>Our branch hours may vary by location, so we recommend visiting our website for the most up-to-date information on branch hours and locations. You can also contact our customer support team for assistance with specific branch-related inquiries.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">Do you offer mobile banking services?</h3>
+            <p>Yes, we offer mobile banking services. Download our mobile banking app from your device's app store to access your accounts, make transactions, and manage your finances on the go.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What steps should I take to update my contact information, such as my address or phone number?</h3>
+              <p>To update your contact information, please visit our website and log in to your online banking account. Navigate to the "Profile" or "Settings" section, where you can make the necessary updates. You can also visit one of our branches and provide the updated information in person.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+         </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a href="#">+1 232 3235 324</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a href="#">finbank@fibn.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+
+
+            <form action="#" class="p-5 bg-white">
+
+              <h2 class="h4 text-black mb-5">Contact Form</h2>
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Subject</label>
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <p class="copyright-text">Copyright &copy; FinBank All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-ui.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+  <script src="{% static 'js/jquery.sticky.js' %}"></script>
+  <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>
